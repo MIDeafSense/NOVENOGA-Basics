@@ -4,7 +4,7 @@ Hi pilot ! Cyberspace.dev is first online game for developers! In the game, you 
 
 ### **Limitations**
 
-The API limits the number of executed <b>commands to 5 p/s</b>, you will be disconnected if you exceed these limits.
+The API limits the number of executed <b>commands to 5 per sec</b>, you will be disconnected if you exceed these limits.
 
 ### **Quick start**
 
