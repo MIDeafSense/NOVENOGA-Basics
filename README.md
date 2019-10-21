@@ -11,7 +11,7 @@ The API limits the number of executed <b>commands to 5 per sec</b>, you will be 
 Install module as npm package
 
 ```typescript
-npm install @cyberspace/sdk
+npm install @cyberspace-dev/sdk
 ```
 
 1. Connect to account service and signin
