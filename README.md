@@ -4,9 +4,10 @@ Hi Pilot !
 
 Cyberspace.dev is first online game for developers! In the game, you are the control center of spaceships in the universe, the game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and for the development of automation scripts and even artificial intelligence!
 
-### **Limitations**
+### **Quotas**
 
-The API limits the number of executed <b>commands to 5 per sec</b>, you will be disconnected if you exceed these limits.
+Requests: <b>5</b> per sec <br/>
+Connections to API: <b>20</b> per <b>single IPAddress</b>
 
 ### **Quick start**
 
@@ -44,4 +45,4 @@ await ship.escape();
 await ship.move(800, 800);
 ```
 
-Congratulations ! Please read our wiki.
+Congratulations! Please read our wiki.
