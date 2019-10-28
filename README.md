@@ -33,7 +33,7 @@ const target = objects.find((instance: any) => instance.type === 'Ship');
 3. Take control over your ship
 
 ```typescript
-const quadrant = await SDK.Sector.connect(target.realm);
+const quadrant = await SDK.Sector.connect(target.realm, account.token);
 const ship = await quadrant.get(target.uuid); 
 ```
 
