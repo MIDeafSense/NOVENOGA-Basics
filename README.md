@@ -13,7 +13,7 @@ Connections to API: <b>20</b> per <b>single IPAddress</b>
 
 Install module as npm package
 
-```javascript
+```typescript
 npm install @cyberspace-dev/sdk
 ```
 
