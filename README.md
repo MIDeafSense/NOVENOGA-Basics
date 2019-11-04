@@ -13,14 +13,14 @@ Connections to API: <b>20</b> per <b>single IPAddress</b>
 
 Install module as npm package
 
-```typescript
+```javascript
 npm install @cyberspace-dev/sdk
 ```
 
 1. Connect to account service and signin
 
 ```typescript
-const account = await SDK.Account.connect();
+const account = await Account.connect();
 await account.signin('email@mail.com', 'password');
 ```
 
@@ -34,7 +34,7 @@ const target = objects.find((instance: any) => instance.type === 'Ship');
 3. Take control over your ship
 
 ```typescript
-const quadrant = await SDK.Sector.connect(target.realm, account.token);
+const quadrant = await Sector.connect(target.realm, account.token);
 const ship = await quadrant.get(target.uuid); 
 ```
 
