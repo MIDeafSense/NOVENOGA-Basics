@@ -47,4 +47,5 @@ await ship.escape();
 await ship.move(800, 800);
 ```
 
-Congratulations! Please read our wiki: https://github.com/cyberspace-dev/cyberspace-sdk/wiki
+Congratulations! 
+Please read our wiki: https://github.com/cyberspace-dev/cyberspace-sdk/wiki
