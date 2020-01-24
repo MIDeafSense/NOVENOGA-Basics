@@ -19,28 +19,28 @@ Install module as npm package
 npm install @cyberspace-dev/sdk
 ```
 
-1. Connect to account service and signin
+Connect to account service and signin
 
 ```typescript
 const account = await Account.connect();
 await account.signin('email@mail.com', 'password');
 ```
 
-2. Look at what objects you own and select any ship
+Look at what objects you own and select any ship
 
 ```typescript
 const objects = await account.objects();
 const target = objects.find((instance: any) => instance.type === 'Ship');
 ```
 
-3. Take control over your ship
+Take control over your ship
 
 ```typescript
 const quadrant = await Sector.connect(target.realm, account.token);
 const ship = await quadrant.get(target.uuid); 
 ```
 
-4. Escape from a planet and move to any point in the system
+Escape from a planet and move to any point in the system
 
 ```typescript
 await ship.escape();
