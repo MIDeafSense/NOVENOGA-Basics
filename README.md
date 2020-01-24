@@ -2,14 +2,14 @@
 
 Hi Pilot ! 
 
-Cyberspace.dev is first online game for developers! In the game, you are the control center of spaceships in the universe, the game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and for the development of automation scripts and even artificial intelligence!
+Cyberspace.dev is the first online game for developers! In the game, you are the control center of spaceships in the universe. The game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and development of automated scripts and even artificial intelligence!
 
 Our website: https://cyberspace.dev
 
 ### **Quotas**
 
-Requests: <b>5</b> per sec <br/>
-Connections to API: <b>20</b> per <b>single IPAddress</b>
+Max requests: <b>5</b> p/s<br/>
+Max connections: <b>100</b></b>
 
 ### **Quick start**
 
@@ -40,7 +40,7 @@ const quadrant = await Sector.connect(target.realm, account.token);
 const ship = await quadrant.get(target.uuid); 
 ```
 
-4. Escape from the planet and move to any point in the system
+4. Escape from a planet and move to any point in the system
 
 ```typescript
 await ship.escape();
