@@ -1,3 +1,7 @@
+### **Cyberspace.dev - Online Strategy For Programmers**
+
+![alt text](https://cyberspace.dev/assets/img/pages/master/social.png)
+
 ### **Description**
 
 Hi Pilot ! 
@@ -46,11 +50,10 @@ const {uuid, quadrant} = instance;
 const ship = await account.getShip(uuid, quadrant);
 ```
 
-Escape from the planet and move to any point in the system
+Escape from the planet and explore other commands in our wiki
 
 ```typescript
 await ship.escape();
-await ship.move(800, 800);
 ```
 
 You can dispose the ship if you no longer need it because it consumes 1 connection
