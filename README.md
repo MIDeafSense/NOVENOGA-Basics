@@ -13,7 +13,7 @@ Our website: https://cyberspace.dev
 ### **Quotas**
 
 Max requests: <b>5</b> p/s <br/>
-Max connections: <b>25</b> p/ip
+Max connections: <b>20</b> p/ip
 
 ### **Quick start**
 
