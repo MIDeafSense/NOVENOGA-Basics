@@ -1,4 +1,4 @@
-### **Cyberspace.dev - Online Strategy For Programmers**
+### **Cyberspace.dev - Online Game For Programmers**
 
 ![alt text](https://cyberspace.dev/assets/img/pages/master/social.png)
 
@@ -6,7 +6,7 @@
 
 Hi Pilot ! 
 
-Cyberspace.dev - online game for developers! The game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and for the development of automation scripts and even artificial intelligence!
+Cyberspace.dev - online game for programmers! The game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and for the development of automation scripts and even artificial intelligence!
 
 Our website: https://cyberspace.dev
 
