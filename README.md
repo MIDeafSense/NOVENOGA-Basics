@@ -42,7 +42,7 @@ const account = await Account.connect();
 await account.signin('your@email.com', 'password');
 ```
 
-Look at what objects you own and select any ship
+Look at objects you own and select any ship
 
 ```typescript
 const objects = await account.objects();
