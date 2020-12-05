@@ -29,6 +29,12 @@ Import type from package
 import {Account} from "@cyberspace-dev/sdk";
 ```
 
+If you are trying to connect from the frontend side then use the following code to disable CORS
+
+```typescript
+Account.skip = true;
+```
+
 Connect to account service and signin
 
 ```typescript
