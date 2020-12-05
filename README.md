@@ -1,4 +1,4 @@
-### **Cyberspace.dev - Online Game For Programmers**
+### **Cyberspace.dev - Online Strategy For Programmers**
 
 ![alt text](https://cyberspace.dev/assets/img/pages/master/social.png)
 
@@ -6,7 +6,7 @@
 
 Hi Pilot ! 
 
-Cyberspace.dev - online game for programmers! The game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and for the development of automation scripts and even artificial intelligence!
+Cyberspace.dev - online game for developers! The game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and for the development of automation scripts and even artificial intelligence!
 
 Our website: https://cyberspace.dev
 
@@ -47,6 +47,12 @@ Look at what objects you own and select any ship
 ```typescript
 const objects = await account.objects();
 const instance = objects.find((object: any) => object.type === 'Ship');
+```
+
+If you don't have a ship yet, use the following method to create a new one.
+
+```typescript
+await account.assemble();
 ```
 
 Take control over your ship
