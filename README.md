@@ -1,10 +1,10 @@
-### **Cyberspace.dev - Online Strategy For Programmers**
+### **Cyberspace.dev - Online Game For Developers**
 
 ![alt text](https://cyberspace.dev/assets/img/pages/master/social.png)
 
 ### **Description**
 
-Hi Pilot ! 
+Hi Pilot !
 
 Cyberspace.dev - online game for developers! The game has a fairly simple game model and does not require much time to start. This is an excellent platform for both manned control and for the development of automation scripts and even artificial intelligence!
 
@@ -32,7 +32,7 @@ import {Account} from "@cyberspace-dev/sdk";
 If you are trying to connect from the frontend side then use the following code to disable CORS
 
 ```typescript
-Account.skip = true;
+Utils.disableCORS = true;
 ```
 
 Connect to account service and signin
